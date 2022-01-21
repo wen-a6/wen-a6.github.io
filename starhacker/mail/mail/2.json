@@ -1,0 +1,25 @@
+{
+    "id": "2",
+    "title": "拉满",
+    "desc": "奖励拉满",
+    "content": "添加一手奖励，<color=\"red\">RichText</color>",
+    "dateTime": 1642759333,
+    "rewardList": [
+        {
+            "itemEnum": 0,
+            "count": 9999999
+        },
+        {
+            "itemEnum": 1,
+            "count": 9999999
+        },
+        {
+            "itemEnum": 2,
+            "count": 9999999
+        },
+        {
+            "itemEnum": 3,
+            "count": 9999999
+        }
+    ]
+}
