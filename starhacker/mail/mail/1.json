@@ -1,1 +1,1 @@
-{"id":"1","title":"第一条邮件","desc":"这是描述","content":"邮件内容，<color=\"red\">RichText</color>","dateTime":1640851200,"rewardList":[{"itemEnum":1,"count":2000},{"itemEnum":3,"count":2000}]}
+{"id":"1","title":"公告","desc":"新版本即将更新","content":"新版本将于1月28日更新","dateTime":1643212800,"rewardList":[{"itemEnum":0,"count":10000}]}
