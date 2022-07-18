@@ -53,11 +53,12 @@
           isDesktop = true
         }
 
-        if (isWeixin || isWXWork) {
-          var shadow = document.getElementById('shadow');
-          shadow.classList.remove('hidden');
-          shadow.classList.add('wechat-tip');
-        } else if (isDesktop) {
+        // if (isWeixin || isWXWork) {
+        //   var shadow = document.getElementById('shadow');
+        //   shadow.classList.remove('hidden');
+        //   shadow.classList.add('wechat-tip');
+        // } else 
+        if (isDesktop) {
           // 在 pc 上则给提示引导到手机端打开
           var containerEl = document.getElementById('desktop-web-container')
           containerEl.classList.remove('hidden')
@@ -66,7 +67,7 @@
           var containerEl = document.getElementById('public-web-container')
           containerEl.classList.remove('hidden')
           containerEl.classList.add('full', 'public-web-container');
-          
+
           // copyAndOpen();
         }
       })
@@ -77,7 +78,7 @@
       }
 
       function openTT(onBeforeJump) {
-        location.href = 'snssdk1128://feed';
+        location.href = 'https://v.douyin.com';
       }
     </script>
     <style>
