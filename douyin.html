@@ -26,7 +26,7 @@
       async function copyData(data) {
         if (navigator.clipboard && window.isSecureContext) {
             try {
-                await navigator.clipboard.writeText(data);
+                await navigator.clipboard.writeText(data + '');
                 console.log('copy end');
                 return;
             } catch (e) {
@@ -69,7 +69,7 @@
 
       async function copyAndOpen() {
         await copyData("4:/ 长按复制此条消息，打开抖音查看精彩内容##QFJtdrreYt8##[抖音口令]");
-        openTT();
+        setTimeout(openTT, 100);
       }
 
       function openTT(onBeforeJump) {
